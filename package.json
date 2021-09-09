@@ -2,9 +2,9 @@
   "name": "Bot-Alicia",
   "version": "0.0.2",
   "description": "No comment",
-  "main": "Alicia.js",
+  "main": "Bot.js",
   "scripts": {
-  "start": "Alicia.js"
+  "start": "Bot.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
