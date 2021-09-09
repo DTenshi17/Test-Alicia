@@ -3,11 +3,14 @@ const fs = require('fs');
 
 async function iniciar () { 
         const client = new WAConnection()
+        
         client.logger.level = 'warn'
+        
         client.on('qr', () => {
         })
 
         fs.existsSync('./Samu330.json') && client.loadAuthInfo('./Samu330.json')
+        
         client.on('connecting', () => {
         console.log('Conectando')
         })
