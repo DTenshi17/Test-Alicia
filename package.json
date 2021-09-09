@@ -1,7 +1,7 @@
 {
   "name": "Nombre",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "No comment",
   "main": "Alicia.js",
   "scripts": {
   "start": "Alicia.js"
